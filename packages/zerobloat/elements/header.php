@@ -19,31 +19,31 @@
 
   <div class="<?= $c->getPageWrapperClass() ?>">
     <div class="page__wrap">
-
-        <header class="header">
-
-            <nav class="navbar">
-                <span class="navbar-toggle" id="js-navbar-toggle">
-                    <i class="fas fa-bars"></i>
-                </span>
-                <a href="#" class="logo">logo</a>
-                <ul class="main-nav" id="js-menu">
-                    <li>
-                        <a href="#" class="nav-links">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-links">Products</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-links">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-links">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-links">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </header>
+      <header class="header">
+        <div class="container">
+        <nav class="navbar">
+          <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+          </span>
+          <ul class="main-nav" id="js-menu">
+            <li>
+              <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+              <a href="/news" class="nav-links">Nieuws</a>
+            </li>
+            <li>
+              <a class="" href="">
+                <img class="logo" src="<?php echo $view->getThemePath(); ?>/assets/images/logo-white-bg.png">
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-links">Contact Us</a>
+            </li>
+            <li>
+              <a href="#" class="nav-links">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+      </header>
