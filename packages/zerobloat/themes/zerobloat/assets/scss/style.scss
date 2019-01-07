@@ -24,12 +24,12 @@ $padding: 50px;
 // $breakpoint-max-xl: 1499px;
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 @import "typography";
@@ -37,11 +37,11 @@ $padding: 50px;
 @import  './bootstrap/bootstrap.scss';
 // -----------------------------------
 @import "header";
-// @import "footer";
 @import "hero";
 @import "images";
 @import "list";
 @import "text-block";
+@import "cards";
 
 
 .flex-center {
@@ -55,7 +55,10 @@ $padding: 50px;
 
 .bg-blue {
   background-color: #00A3AD;
-  color: white;
+  color: $color-white;
+  h1, p {
+    color: $color-white !important;
+  }
 }
 
 .bg-lightgrey {

@@ -47,7 +47,7 @@ html {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // color: #696969 !important;
+  // color: $color-grey !important;
   text-align: left;
 
   a {
@@ -62,15 +62,15 @@ html {
 
 //-----SIZE
 
-$fs-2: 0.563rem;
-$fs-1: 0.75rem;
-$fs0: 1rem;
-$fs1: 1.125rem;
-$fs2: 1.375rem;
-$fs3: 1.5rem;
-$fs4: 2rem;
-$fs5: 2.125rem;
-$fs6: 2.25rem;
+$fs-2: 0.5em;
+$fs-1: 0.75em;
+$fs0: 1em;
+$fs1: 1.25em;
+$fs2: 1.5em;
+$fs3: 1.75em;
+$fs4: 2em;
+$fs5: 2.25em;
+$fs6: 2.5em;
 
 
 
@@ -113,12 +113,15 @@ $fs6: 2.25rem;
 //-----TAG
 
 h1, .h1 {
-  font-size: $fs5;
+  font-size: $fs4;
   color: $color-grey;
+  font-weight: 600;
 }
 
 h2, .h2 {
-  font-size: $fs3;
+  font-size: $fs2;
+  color: $color-grey;
+  font-weight: 600;
 }
 
 h3, .h3 {
@@ -142,9 +145,11 @@ big, .big {
 }
 
 p, .p {
-  //font-size: $fs-1;
+  font-size: $fs0;
+  color: $color-grey;
+
   // margin: 0 0 1.5625em 0;
-  //line-height: 1.3rem;
+  // line-height: 1.3rem;
 }
 
 strong, .strong {

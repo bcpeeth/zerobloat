@@ -1,5 +1,18 @@
 .hero {
   margin-top: 60px;
   height: 60vh;
-  background-color: rgb(92, 92, 122);
+  // background-color: rgb(92, 92, 122);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &__image-home {
+    background-image: url(../images/hero.jpg);
+  }
+  &__image-nieuws {
+    background-image: url(../images/teamwork.jpg);
+  }
+  &__image-projecten {
+    background-image: url(../images/hero-projects.jpg);
+    background-position: 0 23%;
+  }
 }

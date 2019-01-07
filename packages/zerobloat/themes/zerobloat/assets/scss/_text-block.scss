@@ -3,45 +3,45 @@
   overflow: auto;
 
   ul {
-      padding-left: 0;
+    padding-left: 0;
   }
 }
 
 .text-block-boxed {
-    padding-right: 25px;
-    padding-bottom: 15px;
+  padding-right: 25px;
+  padding-bottom: 15px;
 
-    &::-webkit-scrollbar {
-        width: 5px;
-    }
-    &::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px rgb(199, 199, 199);
-        border-radius: 15px;
-    }
-    &::-webkit-scrollbar-thumb {
-        background: #00A3AD;
-        border-radius: 15px;
-    }
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(199, 199, 199);
+    border-radius: 15px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #00A3AD;
+    border-radius: 15px;
+  }
 
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      width: calc( 100% - 40px );
-      height: 45px;
-      background: linear-gradient(
-        rgba(255, 255, 255, 0.001),
-        white
-      ); /* transparent keyword is broken in Safari */
-      pointer-events: none;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: calc( 100% - 40px );
+    height: 45px;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.001),
+      white
+    ); /* transparent keyword is broken in Safari */
+    pointer-events: none;
   }
 }
 
-// .board-members {
-//   h6 {
-//       font-weight: 700;
-//   }
-//   span {
-//       font-style: italic;
-//   }
-// }
+.board-members {
+  h6 {
+    font-weight: 700;
+  }
+  span {
+    font-style: italic;
+  }
+}
