@@ -27,10 +27,10 @@
           </span>
           <ul class="main-nav" id="js-menu">
             <li>
-              <a href="#" class="nav-links">Home</a>
+              <a class= "" href="<?php echo View::url('/'); ?>">Home</a>
             </li>
             <li>
-              <a href="/news" class="nav-links">Nieuws</a>
+              <a class= "" href="<?php echo View::url('/nieuws'); ?>">Nieuws</a>
             </li>
             <li>
               <a class="" href="">
@@ -38,10 +38,10 @@
               </a>
             </li>
             <li>
-              <a href="#" class="nav-links">Contact Us</a>
+              <a class= "" href="<?php echo View::url('/projecten'); ?>">Projecten</a>
             </li>
             <li>
-              <a href="#" class="nav-links">Blog</a>
+            <a class= "" href="<?php echo View::url('/informatie'); ?>">Informatie</a>
             </li>
           </ul>
         </nav>

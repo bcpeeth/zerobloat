@@ -17,41 +17,46 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Hind-Light';
-    src: url('../fonts/Hind-Light.eot') format('embedded-opentype'),
-        url('../fonts/Hind-Light.woff') format('woff'),
-        url('../fonts/Hind-Light.ttf') format('truetype'),
-        url('../fonts/Hind-Light.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'Hind-Light';
+//     src: url('../fonts/Hind-Light.eot') format('embedded-opentype'),
+//         url('../fonts/Hind-Light.woff') format('woff'),
+//         url('../fonts/Hind-Light.ttf') format('truetype'),
+//         url('../fonts/Hind-Light.svg') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
-@font-face {
-    font-family: 'Hind-Bold';
-    src: url('../fonts/Hind-Bold.eot') format('embedded-opentype'),
-        url('../fonts/Hind-Bold.woff') format('woff'),
-        url('../fonts/Hind-Bold.ttf') format('truetype'),
-        url('../fonts/Hind-Bold.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'Hind-Bold';
+//     src: url('../fonts/Hind-Bold.eot') format('embedded-opentype'),
+//         url('../fonts/Hind-Bold.woff') format('woff'),
+//         url('../fonts/Hind-Bold.ttf') format('truetype'),
+//         url('../fonts/Hind-Bold.svg') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
 
 
 html {
-    background-color: $color-white;
-    color: $color-grey;
-    font-family: 'Hind-Regular', sans-serif;
-    font-size: 14px;
+  background-color: $color-white;
+  // color: $color-grey;
+  // font-family: 'Hind-Regular', sans-serif;
+  font-size: 14px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // color: #696969 !important;
+  text-align: left;
 
-    a {
-        color: inherit;
+  a {
+    color: inherit;
 
-        &:hover {
-        text-decoration: none;
-        }
+    &:hover {
+      text-decoration: none;
     }
+  }
 }
 
 
@@ -109,6 +114,7 @@ $fs6: 2.25rem;
 
 h1, .h1 {
   font-size: $fs5;
+  color: $color-grey;
 }
 
 h2, .h2 {
